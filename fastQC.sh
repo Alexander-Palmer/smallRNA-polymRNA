@@ -1,7 +1,8 @@
 #!/bin/bash
 
-#Perform fastQC analysis on sequencing data
-###########################################################
+#Perform fastQC analysis on sequencing data before and after 
+#adapter trimming
+#####################################################################
 
 fastqc S996-1_combined_R1.fastq S996-1_combined_R2.fastq \
       S996-2_combined_R1.fastq S996-2_combined_R2.fastq \
