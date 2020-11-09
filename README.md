@@ -3,12 +3,12 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ## Dependencies
 * fastQC (vx.x.x)
-* cutadapt v2.10
-* HISAT2 v2.10
+* cutadapt (v2.10)
+* HISAT2 (v2.10)
 * samtools (vx.x.x)
-* FeatureCounts Subread v2.0.0
-* edgeR v3.11
-* biomaRt v2.46.0
+* FeatureCounts Subread (v2.0.0)
+* edgeR (v3.11)
+* biomaRt (v2.46.0)
  
 
 ## Pipeline
