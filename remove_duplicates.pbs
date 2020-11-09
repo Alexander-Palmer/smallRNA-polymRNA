@@ -6,7 +6,7 @@
 #PBS -N Remove_duplicate_reads_6
 #
 
-#Remove gene duplicates
+#Remove gene duplicates generated during hisat2
 ######################################################
 
 #grep -vf duplicates.txt S998-1.sam > S998-1_nodup.sam
