@@ -1,6 +1,6 @@
 # smallRNA-polymRNA
 
-A series of scripts used to process and analyse small-RNA and polysome sequencing data. 
+Scripts used to process and analyse small-RNA and polysome sequencing data. 
 
 -------------------------------
 Pipeline
