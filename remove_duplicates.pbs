@@ -9,10 +9,10 @@
 #Remove gene duplicates generated during hisat2
 ######################################################
 
-#grep -vf duplicates.txt S998-1.sam > S998-1_nodup.sam
-#grep -vf duplicates.txt S998-2.sam > S998-2_nodup.sam
-#grep -vf duplicates.txt S998-3.sam > S998-3_nodup.sam
+grep -vf duplicates.txt S998-1.sam > S998-1_nodup.sam
+grep -vf duplicates.txt S998-2.sam > S998-2_nodup.sam
+grep -vf duplicates.txt S998-3.sam > S998-3_nodup.sam
 
-#grep -vf duplicates.txt S1000-1.sam > S1000-1_nodup.sam
-#grep -vf duplicates.txt S1000-2.sam > S1000-2_nodup.sam
-#grep -vf duplicates.txt S1000-3.sam > S1000-3_nodup.sam
+grep -vf duplicates.txt S1000-1.sam > S1000-1_nodup.sam
+grep -vf duplicates.txt S1000-2.sam > S1000-2_nodup.sam
+grep -vf duplicates.txt S1000-3.sam > S1000-3_nodup.sam
