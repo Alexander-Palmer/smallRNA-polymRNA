@@ -19,8 +19,11 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 ### Polysome-seq
 
 HISAT gene duplicates:
-_C. elegans_ genome annotation file
+
+_C. elegans_ genome annotation file:
+
 _C. elegans_ reference genome:
+
 
 1. **fastQC.sh** - _initial assessment of read quality_
 2. **cutadapt.sh** - _removal of sequencing adapters_
