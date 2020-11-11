@@ -2,7 +2,7 @@
 
 #Perform fastQC analysis on sequencing data before and after 
 #adapter trimming
-#####################################################################
+############################################################
 
 fastqc S998-1_combined_R1.fastq S998-1_combined_R2.fastq \
       S998-2_combined_R1.fastq S998-2_combined_R2.fastq \
