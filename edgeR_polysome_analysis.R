@@ -11,7 +11,7 @@ b <- read.csv('meta_polysome_mRNAs.csv', header = T)
 a <- as.data.frame(a)
 a[is.na(a)] <- 0
 sequences <- b$GeneID
-levels <- letters[1:24]
+levels <- letters[1:6]
 levels[c(1,2,3)] <- "A"
 levels[c(4,5,6)] <- "B"
 
