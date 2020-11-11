@@ -16,12 +16,13 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 1. **Cutadapt**: La
 2. **fastQC**: De
 3. **bowtie2**: Da
+4. **miRDeep2.sh**: De
 
 ### Polysome-seq
 
-HISAT gene duplicates:
-_C. elegans_ genome annotation file:
-_C. elegans_ reference genome:
+HISAT gene duplicates: \
+_C. elegans_ genome annotation file: \
+_C. elegans_ reference genome: \
 
 
 1. **fastQC.sh** - _initial assessment of read quality_
