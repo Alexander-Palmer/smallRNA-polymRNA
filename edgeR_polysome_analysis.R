@@ -1,6 +1,5 @@
-###Normalise and statistically analyse polysome-seq###
-
-#######################################################
+#Normalise and analyse processed polysome-seq data
+##################################################
 
 #Programs
 install.packages("edgeR")
