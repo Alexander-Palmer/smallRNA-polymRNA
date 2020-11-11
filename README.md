@@ -21,7 +21,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 ### Polysome-seq
 
 HISAT gene duplicates: \
-_C. elegans_ genome annotation file: \
+_C. elegans_ genome annotation 'gene transfer format' file: Caenorhabditis_elegans
 _C. elegans_ reference genome: \
 
 
