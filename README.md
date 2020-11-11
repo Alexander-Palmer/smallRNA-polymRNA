@@ -22,7 +22,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 HISAT gene duplicates: \
 _C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
-_C. elegans_ reference genome: **http://ensembl.org/info/data/ftp/index.html**\
+_C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
 
 
 1. **fastQC.sh** - _initial assessment of read quality_
