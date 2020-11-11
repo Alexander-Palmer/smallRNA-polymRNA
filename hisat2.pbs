@@ -7,7 +7,6 @@
 #
 
 #Align trimmed reads to reference genome (hisat index)
-
 ######################################################
 
 ./hisat2 -x ../HISAT_index/hisat_index_2 -1 ../FASTQ_files/S998-1-R1.fastq -2 ../FASTQ_files/S998-1-R2.fastq -S /30days/uqapalm2/S998-1.sam -p 16
