@@ -1,5 +1,5 @@
 #Annotates processed reads by C. elegans genome features
-###########################################################################################################
+########################################################
 
 #Download and apply requried packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
