@@ -7,7 +7,7 @@
 #
 
 #Convert hisat2 .sam output to .bam format
-#################################################################
+##########################################
 
 samtools view -S -b S998-1_nodup.sam > S998-1.bam -@ 192 -m 16G
 samtools view -S -b S998-2_nodup.sam > S998-2.bam -@ 192 -m 16G
