@@ -63,3 +63,4 @@ sig.polysome.genes <- e[grep(paste(sig.genes, collapse = "|"), e[,1]), ]
 
 write.table(d, "998x1000.csv", sep=",", col.names = NA, quote = FALSE)
 write.table(c, "998x1000_all.csv", sep=",", col.names = NA, quote = FALSE)
+write.table(e, "Sig_polysome_genes", sep=",", col.names = NA, quote = FALSE)
