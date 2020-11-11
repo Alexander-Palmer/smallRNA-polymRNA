@@ -7,6 +7,7 @@
 #
 
 #Sorts .bam files for featureCounts annotation
+##############################################
 
 samtools sort  S998-1-filtered.bam > S998-1-filtered-sorted.bam -@ 96 
 samtools sort  S998-2-filtered.bam > S998-2-filtered-sorted.bam -@ 96 
