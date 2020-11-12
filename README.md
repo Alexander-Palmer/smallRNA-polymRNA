@@ -20,7 +20,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ### Polysome-seq
 
-HISAT gene duplicates: \
+HISAT gene duplicates: **gene_duplicates.txt**\
 _C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
 _C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
 
