@@ -5,7 +5,7 @@ RNA-seq data to identify and quantify novel miRNAs
 ######################################################
 
 #Convert .bam files to .fasta format for miRDeep2 processing
-for file in *.bam
+for file in *clip.bam
 do
   samtools fasta $file
 done
