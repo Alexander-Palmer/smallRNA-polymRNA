@@ -13,7 +13,8 @@ proc.files <- c("A-284-1_intestine_ALG1_clip.bam", "A-284-2_intestine_ALG1_clip.
                 "A-286-1_neuron_ALG1_clip.bam", "A-286-2_neuron_ALG1_clip.bam",
                 "A-287-1_neuron_ALG2_clip.bam", "A-287-2_neuron_ALG2_clip.bam",
                 "A-290-1_bwm_ALG1_clip.bam", "A-290-2_bwm_ALG1_clip.bam",
-                "A-291-1_bwm_ALG2_clip.bam", "A-291-2_bwm_ALG2_clip.bam")
+                "A-291-1_bwm_ALG2_clip.bam", "A-291-2_bwm_ALG2_clip.bam",
+                "N2-1_clip.bam", "N2-2_clip.bam")
                            
 #featureCounts processing
 meta_results <-featureCounts(files=proc.files,
