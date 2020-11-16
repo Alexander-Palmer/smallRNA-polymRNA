@@ -14,4 +14,5 @@ A-286-1_neuron_ALG1_clip.fastq,A-286-2_neuron_ALG1_clip.fastq,\
 A-287-1_neuron_ALG2_clip.fastq,A-287-2_neuron_ALG2_clip.fastq,\
 A-290-1_bwm_ALG1_clip.fastq,A-290-2_bwm_ALG1_clip.fastq,\
 A-291-1_bwm_ALG2_clip.fastq,A-291-2_bwm_ALG2_clip.fastq,\
+N2-1_clip.fastq,N2-2_clip.fastq\
 -S mapped_seq
