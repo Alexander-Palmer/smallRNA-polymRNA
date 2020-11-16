@@ -15,8 +15,8 @@ Scripts used to process and analyse small-RNA and polysome sequencing data. Anno
 ## Pipeline
 ### smallRNA-seq
 
-_C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
-_C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
+_C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz** \
+_C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html \
 Mature _C. elegans_ miRNAs: http://www.mirbase.org/cgi-bin/mirna_summary.pl?org=cel
 
 1. **fastQC(1).sh**: _initial assessment of read quality_
@@ -30,7 +30,7 @@ Mature _C. elegans_ miRNAs: http://www.mirbase.org/cgi-bin/mirna_summary.pl?org=
 
 ### Polysome-seq
 
-HISAT gene duplicates: **gene_duplicates.txt**\
+HISAT gene duplicates: **gene_duplicates.txt** \
 
 
 
