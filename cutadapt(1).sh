@@ -59,5 +59,15 @@ cutadapt -a (TGGAATTCTCGGGTGCCAAGG \
          -o Cutadapt_out/A-291-2_bwm_ALG2_clip.fastq Raw_seq/A-291-2_bwm_ALG2.fastq\
          --cores=6
 
+
+#Sample N2-1
+cutadapt -a (TGGAATTCTCGGGTGCCAAGG \
+         -o Cutadapt_out/N2-1_clip.fastq Raw_seq/N2-1.fastq\
+         --cores=6
+#Sample N2-2
+cutadapt -a (TGGAATTCTCGGGTGCCAAGG \
+         -o Cutadapt_out/N2-1_clip.fastq Raw_seq/N2-2.fastq\
+         --cores=6
+
 mv (*clip*) ../Cutadapt_out
 cd ..
