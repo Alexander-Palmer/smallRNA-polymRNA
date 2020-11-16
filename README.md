@@ -15,7 +15,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 ### smallRNA-seq
 1. **Cutadapt**: La
 2. **fastQC**: De
-3. **bowtie2**: Da
+3. **bowtie2.sh**: _Index and alignment to the_ C. elegans _genome_
 4. **miRDeep2.sh**: _Pre-processing and identification novel miRNAs_ 
 
 ### Polysome-seq
