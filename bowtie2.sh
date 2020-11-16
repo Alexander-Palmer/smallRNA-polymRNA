@@ -7,8 +7,11 @@
 bowtie2-build -f C.elegans.WBcel235.dna.toplevel.fa cel_index
 
 #bowtie2 alignment
-bowtie2 -x cel_index -U Intestine_ALG-1_rep1.fastq,Intestine_ALG-1_rep2.fastq,\
-Neuron_ALG-1_rep1.fastq,Neuron_ALG-1_rep2.fastq,Muscle_ALG-1_rep1.fastq,\
-Muscle_ALG-1_rep2.fastq,Intestine_ALG-2_rep1.fastq,Intestine_ALG-2_rep2.fastq,\
-Neuron_ALG-2_rep1.fastq,Neuron_ALG-2_rep2.fastq,Muscle_ALG-2_rep1.fastq,\
-Muscle_ALG-2_rep2.fastq -S seq
+bowtie2 -x cel_index -U \
+A-284-1_intestine_ALG1.fastq,A-284-2_intestine_ALG1.fastq,\
+A-285-1_intestine_ALG2.fastq,A-285-2_intestine_ALG2.fastq,\
+A-286-1_neuron_ALG1.fastq,A-286-2_neuron_ALG1.fastq,\
+A-287-1_neuron_ALG2.fastq,A-287-2_neuron_ALG2.fastq,\
+A-290-1_bwm_ALG1.fastq,A-290-2_bwm_ALG1.fastq,\
+A-291-1_bwm_ALG2.fastq,A-291-2_bwm_ALG2.fastq,\
+-S mapped_seq
