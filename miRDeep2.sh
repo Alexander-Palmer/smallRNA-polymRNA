@@ -4,6 +4,12 @@
 RNA-seq data to identify and quantify novel miRNAs
 ######################################################
 
+#Convert .bam files to .fasta format for miRDeep2 processing
+for file in *.bam
+do
+  samtools fasta $file
+done
+
 #Pre-procesing sequencing data
 mapper.pl *seq.fa -c -m -l 18 -p C.elegans.WBcel235.dna.toplevel.fa\
 -s reads_collapsed.fa -t reads_vs_ref_genome.arf -v
