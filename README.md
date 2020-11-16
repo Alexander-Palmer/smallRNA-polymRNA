@@ -13,10 +13,11 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ## Pipeline
 ### smallRNA-seq
-1. **Cutadapt**: La
-2. **fastQC**: De
-3. **bowtie2.sh**: _Index and alignment to the_ C. elegans _genome_
-4. **miRDeep2.sh**: _Pre-processing and identification novel miRNAs_ 
+1. **fastQC_miRNAs**: 
+2. **Cutadapt**: La
+3. **fastQC_miRNAs**: De
+4. **bowtie2.sh**: _Index and alignment to the_ C. elegans _genome_
+5. **miRDeep2.sh**: _Pre-processing and identification novel miRNAs_ 
 
 ### Polysome-seq
 
@@ -25,9 +26,9 @@ _C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
 _C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
 
 
-1. **fastQC.sh** - _initial assessment of read quality_
+1. **fastQC_mRNAs.sh** - _initial assessment of read quality_
 2. **cutadapt.sh** - _removal of sequencing adapters_
-3. **fastQC.sh** - _assessment of read quality folowing adapter removal_
+3. **fastQC_mRNAs.sh** - _assessment of read quality folowing adapter removal_
 4. **hisat2.pbs** - _alignment of trimmed reads to the_ C. elegans _genome_
 5.  **remove_duplicates.pbs** - _removal of gene duplicates generated during HISAT2 alignment_
 6. **sam_to_bam.pbs** - _conversion of HISAT2 .sam output to .bam format_
