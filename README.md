@@ -45,4 +45,4 @@ HISAT gene duplicates: **gene_duplicates.txt**
 
 
 ## Citation
-**Brosnan, C. A., Palmer, A. J., Zuryn, S. J.** Cell-type specific profiling of active miRNAs from a whole animal _(in revision, Nat. Comm, 2020)
+**Brosnan, C. A., Palmer, A. J., Zuryn, S. J.** Cell-type specific profiling of active miRNAs from a whole animal _(in revision, Nat. Comm, 2020)_
