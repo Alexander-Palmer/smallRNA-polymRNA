@@ -35,11 +35,11 @@ HISAT gene duplicates: **gene_duplicates.txt**
 1. **fastQC(2).sh** - _initial assessment of read quality_
 2. **cutadapt(2).sh** - _removal of sequencing adapters_
 3. **fastQC(2).sh** - _assessment of read quality folowing adapter removal_
-4. **hisat2.pbs** - _alignment of trimmed reads to the_ C. elegans _genome_
-5. **remove_duplicates.pbs** - _removal of gene duplicates generated during HISAT2 alignment_
+4. **hisat2.sh** - _alignment of trimmed reads to the_ C. elegans _genome_
+5. **remove_duplicates.sh** - _removal of gene duplicates generated during HISAT2 alignment_
 6. **sam_to_bam(2).sh** - _conversion of HISAT2 .sam output to .bam format_
-7. **filter_pairs.pbs** - _filtering of processed reads to include matching pairs only_
-8. **sort_bam.pbs** - _sorting of .bam files for annotation_
+7. **filter_pairs.sh** - _filtering of processed reads to include matching pairs only_
+8. **sort_bam.sh** - _sorting of .bam files for annotation_
 9. **featureCounts_annotation(2).R** - _annotation and quantification of aligned reads_
 10. **edgeR_polysome_analysis.R** - _normalisation and analysis of mRNAs_
 
