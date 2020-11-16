@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Perform fastQC analysis on sequencing data prior to and after 
-#cutadapt (2) adapter trimming
+#cutadapt(2) adapter trimming
 ##############################################################
 
 #Before cutadapt(2) adapter trimming
