@@ -22,4 +22,4 @@ meta_results <-featureCounts(files=proc.files,
 #Data output
 write.table(x=data.frame(meta_results$annotation[,c("GeneID","Length")],
                          meta_results$counts,stringsAsFactors=FALSE),
-                        file="counts_paired_final.txt",quote=FALSE,sep="\t")
+                        file="mRNA_counts_paired_final.txt",quote=FALSE,sep="\t")
