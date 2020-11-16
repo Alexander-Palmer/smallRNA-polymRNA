@@ -21,6 +21,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 5. **sam_to_bam(1).sh**: _conversion of bowtie2 .sam output to .bam format_
 6. **miRDeep2.sh**: _pre-processing and identification novel miRNAs_
 7. **featureCounts_annotation(1).R**: _annotation and quantification of aligned reads_
+8. **edgeR_miRNA_analysis.R**: _normalisation and analysis of miRNAs, compared against N2
 
 ### Polysome-seq
 
@@ -38,7 +39,7 @@ _C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
 7. **filter_pairs.pbs** - _filtering of processed reads to include matching pairs only_
 8. **sort_bam.pbs** - _sorting of .bam files for annotation_
 9. **featureCounts_annotation(2).R** - _annotation and quantification of aligned reads_
-10. **edgeR_polysome_analysis.R** - _normalisation and analysis of mRNAs, including multiple comparisons_
+10. **edgeR_polysome_analysis.R** - _normalisation and analysis of mRNAs_
 
 
 
