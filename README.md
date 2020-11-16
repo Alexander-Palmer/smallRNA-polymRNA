@@ -18,7 +18,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 2. **cutadapt(1).sh**: _removal of sequencing adapters_
 3. **fastQC(1).sh**: _assessment of read quality folowing adapter removal_
 4. **bowtie2.sh**: _index and alignment to the_ C. elegans _genome_
-5. **sam_to_bam.sh**: _conversion of bowtie2 .sam output to .bam format_
+5. **sam_to_bam(1).sh**: _conversion of bowtie2 .sam output to .bam format_
 5. **miRDeep2.sh**: _pre-processing and identification novel miRNAs_ 
 
 ### Polysome-seq
@@ -33,7 +33,7 @@ _C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
 3. **fastQC(2).sh** - _assessment of read quality folowing adapter removal_
 4. **hisat2.pbs** - _alignment of trimmed reads to the_ C. elegans _genome_
 5.  **remove_duplicates.pbs** - _removal of gene duplicates generated during HISAT2 alignment_
-6. **sam_to_bam.pbs** - _conversion of HISAT2 .sam output to .bam format_
+6. **sam_to_bam(1).sh** - _conversion of HISAT2 .sam output to .bam format_
 7.  **filter_pairs.pbs** - _filtering of processed reads to include matching pairs only_
 8.  **sort_bam.pbs** - _sorting of .bam files for annotation_
 9.  **featureCounts_annotation.R** - _annotation and quantification of aligned reads_
