@@ -13,9 +13,9 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ## Pipeline
 ### smallRNA-seq
-1. **fastQC_miRNAs**: 
+1. **fastQC_miRNAs.sh**: 
 2. **Cutadapt**: La
-3. **fastQC_miRNAs**: De
+3. **fastQC_miRNAs.sh**: De
 4. **bowtie2.sh**: _Index and alignment to the_ C. elegans _genome_
 5. **miRDeep2.sh**: _Pre-processing and identification novel miRNAs_ 
 
