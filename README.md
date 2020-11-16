@@ -1,5 +1,5 @@
 # smallRNA - polysome-seq
-Scripts used to process and analyse small-RNA and polysome sequencing data.
+Scripts used to process and analyse small-RNA and polysome sequencing data. Annotated using WBcel235.
 
 ## Dependencies
 * fastQC (v0.11.9)
@@ -14,6 +14,11 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ## Pipeline
 ### smallRNA-seq
+
+_C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
+_C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
+Mature _C. elegans_ miRNAs: http://www.mirbase.org/cgi-bin/mirna_summary.pl?org=cel
+
 1. **fastQC(1).sh**: _initial assessment of read quality_
 2. **cutadapt(1).sh**: _removal of sequencing adapters_
 3. **fastQC(1).sh**: _assessment of read quality folowing adapter removal_
@@ -26,8 +31,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 ### Polysome-seq
 
 HISAT gene duplicates: **gene_duplicates.txt**\
-_C. elegans_ genome annotation: **C.elegans.WBCel235.96.gtf.gz**\
-_C. elegans_ reference genome: http://ensembl.org/info/data/ftp/index.html\
+
 
 
 1. **fastQC(2).sh** - _initial assessment of read quality_
