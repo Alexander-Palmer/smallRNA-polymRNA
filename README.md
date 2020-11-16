@@ -6,7 +6,7 @@ Scripts used to process and analyse small-RNA and polysome sequencing data.
 * cutadapt (v2.10)
 * HISAT2 (v2.10)
 * samtools (v1.11)
-* FeatureCounts Subread (v2.0.0)
+* FeatureCounts (Subread, v2.0.0)
 * edgeR (v3.11)
 * biomaRt (v2.46.0)
  
