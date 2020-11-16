@@ -30,9 +30,7 @@ Mature _C. elegans_ miRNAs: http://www.mirbase.org/cgi-bin/mirna_summary.pl?org=
 
 ### Polysome-seq
 
-HISAT gene duplicates: **gene_duplicates.txt** \
-
-
+HISAT gene duplicates: **gene_duplicates.txt** 
 
 1. **fastQC(2).sh** - _initial assessment of read quality_
 2. **cutadapt(2).sh** - _removal of sequencing adapters_
