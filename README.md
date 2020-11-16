@@ -2,10 +2,12 @@
 Scripts used to process and analyse small-RNA and polysome sequencing data.
 
 ## Dependencies
+* bowtie2 (v2.3.4.3)
+* samtools (v1.11)
+* miRDeep2 (v2.0.1.2)
 * fastQC (v0.11.9)
 * cutadapt (v2.10)
 * HISAT2 (v2.10)
-* samtools (v1.11)
 * FeatureCounts (Subread, v2.0.0)
 * edgeR (v3.11)
 * biomaRt (v2.46.0)
