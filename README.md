@@ -45,4 +45,4 @@ HISAT gene duplicates: **gene_duplicates.txt**
 
 
 ## Citation
-**Brosnan, C. A., Palmer, A. J., Zuryn, S. J.** Cell-type specific profiling of loaded miRNAs from _Caenorhabditis elegans_ reveals spatial and temporal flexibility in Argonaute loadingwhole animal _(Nat. Comm., 2021)_
+**Brosnan, C. A., Palmer, A. J., Zuryn, S. J.** Cell-type specific profiling of loaded miRNAs from _Caenorhabditis elegans_ reveals spatial and temporal flexibility in Argonaute loading _(Nat. Comm., 2021)_
